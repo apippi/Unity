@@ -8,6 +8,8 @@ de la variable expuesta "cuanto"
 
 Los scripts son UpdateReal y UpdateReal2 siendo el primero el que se lanza con Update() y el segundo contiene UpdateFake()
 
+
+````
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,7 +25,7 @@ public class UpdateReal2 : MonoBehaviour
             a++;
     }
 }
-
+````
 
 En la escena he puesto un canvas con un texto, el texto tiene asociada una rutina que pone los fps actuales.
 
